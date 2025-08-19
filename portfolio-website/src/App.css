@@ -40,3 +40,55 @@
 .read-the-docs {
   color: #888;
 }
+
+.socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.social-icon {
+    color: white;
+    background-color: #333;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+}
+
+    .social-icon:hover {
+        transform: scale(1.1);
+    }
+
+/* Optional brand colors */
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.gaslightdash {
+    background-color: darkslategray;
+}
+
+.losttrials {
+    background-color:blueviolet;
+}
+
+.instagram {
+    background-color: #e4405f;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.github {
+    background-color: #333;
+}
